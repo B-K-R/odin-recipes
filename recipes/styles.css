@@ -70,7 +70,6 @@ p {
 /* styling for the unordered and ordered lists contained in ingredients & steps */
 ul {
     list-style-position: inside;
-    text-align: justify;
     font-family: 'Times New Roman', Times, serif;
     margin-right: 25px;
 }
