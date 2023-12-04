@@ -3,6 +3,7 @@ body {
     flex-direction: column;
 }
 
+/* container for recipe title and image */
 .title-container {
     display: flex;
     flex-direction: column;
@@ -26,6 +27,7 @@ h1 {
     margin-bottom: 25px;
 }
 
+/* container for recipe description */
 .description {
     display: flex;
     flex-direction: column;
@@ -48,6 +50,7 @@ p {
     margin: 25px;
 }
 
+/* container for both the recipe ingredients and steps */
 .ingredients-steps {
     display: flex;
     flex-direction: column;
@@ -61,6 +64,7 @@ p {
     margin: 25px;
 }
 
+/* styling for the unordered and ordered lists contained in ingredients & steps */
 ul {
     list-style-position: inside;
     text-align: justify;

@@ -3,10 +3,11 @@ body {
     flex-direction: column;
 }
 
-.container {
+/* container for h1 at top of page */
+.title-container {
     background-color: rgb(0, 0, 0);
     width: 100%;
-    margin: 10px;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -15,12 +16,14 @@ h1 {
     color: white;
 }
 
+/* flex container for displayed recipes */
 .recipe-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Center the containers horizontally */
 }
 
+/* individual recipe container */
 .container-2 {
     background-color: white;
     height: auto;
